@@ -1,0 +1,59 @@
+// Called by the Tuffle frontend when the user enters a letter.
+
+/* 
+void LetterKeyPressed(char key){
+    string end="";
+   
+    std::string str=game_state_.GameStatus();
+    if(str=="active")
+    {
+    vector<string> vect = game_state_.GuessedWords();
+   if (game_state_.GuessedWords().size()>0)
+    { int blah=vect.size()-1;
+      end= vect.at(blah);
+      }
+    else
+     end= vect.at(0);
+    string ends=end+key;
+     if( vect.size()>1)
+      game_state_.at(vect.size()-1)=ends;
+   else 
+        game_state_.at(0)=ends;
+   
+    }
+  
+    }
+*/
+  
+  // Called by the Tuffle frontend when the user submits a guess.
+//how to take in account if the string is less than 5 chars does that go in the Error Handling
+
+
+
+
+/*
+vector<string> vect = game_state_.GuessedWords();
+    string end= vect.at(vect.size()-1);
+    string conc= end+key; 
+    std::string blah= game_state_.ErrorHandling(conc);
+     if (blah=="")
+      game_state_.AddMove(conc);
+    else
+      game_state_.RemoveMode(conc);
+     
+  
+  void DeleteKeyPressed(){
+    vector<string> vect = game_state_.GuessedWords();
+    int blah = 0; 
+    if (blah>0)
+    int blah=vect.size()-1;
+    string end= vect.at(blah);
+    int endsize= end.size()-2;
+    
+    string newend=end.substr(0,endsize);
+    }
+
+
+ */
+
+
