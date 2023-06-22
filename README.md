@@ -9,3 +9,8 @@
 - Word validation to ensure valid guesses.
 - Scoring system to track the player's progress.
 - Multiple difficulty levels to choose from.
+
+
+
+## Support
+##### For any issues or questions, please [open an issue] on GitHub or contact me at kkaushik0203@gmail.com
